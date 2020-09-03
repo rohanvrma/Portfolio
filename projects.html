@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+    .box{
+        box-shadow:0px 0px 30px black;
+    }
+    .descbox{
+        width:auto;
+        height: fit-content;
+        padding:12px;
+        background-color: rgb(243, 240, 236);
+        box-shadow: 0px 0px 2px gray;
+        float: left;
+        margin: 10px;
+    }
+    .descbox:hover{
+        box-shadow: 0px 0px 10px gray;
+    }
+    .outer-box{
+        height: 320px;
+        overflow:auto;
+        padding:20px;
+        overflow-x:hidden;        
+    }
+    .cov{
+        width: 100%;
+        height:auto;
+        background-image:url('img/paper.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+
+    }
+    .back1{
+        width: 100%;
+        height:auto;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/lamps.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+    .avt{
+        border-radius: 50%;
+        border-style: solid;
+        height:auto;
+        width: 65%;
+        margin-left: auto;
+    }
+    .link{
+        color:white;
+    }
+    .link:hover{
+        color: coral;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body class="cov">
+    <div class="container-fluid p-4" >
+        <div class="row box bg-light m-5">
+            <div class="col-md-4 back1 p-5" style="color: rgb(255, 255, 238);">
+                <div class="text-center">
+                    <div class="p-4">
+                    <img src="img/dp.jpg" class="avt"></img>
+                    <h3 class="mt-3">Rohan Verma</h3>
+                    </div>
+                    
+                <a href="skills.html" class="link" ><h5>Skills</h5></a>
+                <a href="index.html" class="link" ><h5>About</h5></a>
+                <a href="projects.html" class="link" ><h5>Projects</h5></a>
+                <a href="certificates.html" class="link" ><h5>Certificates</h5></a>
+                
+                </div>
+            </div>
+            
+            <div class="col-md-8 p-5">
+                <h1>Projects</h1>
+                <hr>
+                <div class="outer-box">
+                <div class="row px-3">
+                    <div class="col-md-12 descbox">
+                        <div class="text-center">
+                            <b>Title</b>: Portfolio || Bootstrap <br>
+                        </div>
+                        <div class="text-center">
+                            <b>Description:</b> Build this Resume cum Portfolio using bootstrap.<br>
+                        </div>
+                        <div class="text-center">
+                            <b >Source Code Link:</b><a href="projects.html">  Click Here!! </a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row px-3">
+                        <div class="col-md-12 descbox">
+                            <div class="text-center">
+                                <b>Title</b>: Joyce || PHP <br>
+                            </div>
+                            <div class="text-center">
+                                <b>Description:</b> Users get a quote on their phone after registering on the website. <br>
+                            </div>
+                            <div class="text-center">
+                                <b >Source Code Link:</b><a href="https://shorturl.at/abyI4"> Click Here!! </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row px-3">
+                        <div class="col-md-12 descbox">
+                            <div class="text-center">
+                                <b>Title</b>: AES-and-text-steganography || Python <br>
+                            </div>
+                            <div class="text-center">
+                                <b>Description:</b> Hide a secret message in an input text file<br>
+                            </div>
+                            <div class="text-center">
+                                <b>Source Code Link:</b><a href="https://shorturl.at/tzDR2"> Click Here!!</a>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
